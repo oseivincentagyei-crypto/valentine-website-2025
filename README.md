@@ -45,8 +45,9 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "Dani"                    // Your Valentine's name
+pageTitle: "Happy Valentine’s Day, Daniella ❤️"
+// Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
@@ -55,36 +56,41 @@ floatingEmojis: {
 }
 
 // Questions and Buttons
-questions: {
-    first: {
-        text: "Do you like me?",                   // First question
-        yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+questions: {text: "Be honest… do you smile when you see my name? 😌",
+yesBtn: "Maybe 👀",
+noBtn: "No 😅",
+secretAnswer: "I knew it 😌❤️"
+
     },
     second: {
-        text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+  text: "baby ❤️ Do you know how much I love you?",
+  yesBtn: "Tell me 😌",
+  noBtn: "Not sure 🤭",
+  secretAnswer: "More than you’ll ever imagine 💕"
+
     },
     third: {
-        text: "Will you be my Valentine...?",      // Final question
-        yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
-    }
+  text: "Thank you for being mine ❤️ Will you keep choosing me every day?",
+  yesBtn: "Always 😍",
+  noBtn: "You’re stuck with me 😂"
 }
 
+
+
 // Love Meter Messages
-loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+loveMessages:  {
+  1: "Happy Valentine’s Day, my love ❤️",
+  2: "You make my world brighter every single day ☀️",
+  3: "I’m so lucky to call you mine 💕",
+  4: "Thank you for loving me the way you do 😘",
+  5: "Today is special… but having you is even more special ❤️"
+}
+
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
-    message: "Now come get your gift...",          // Celebration message
+    title: "I'm the luckiest person...",     // 
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
 
